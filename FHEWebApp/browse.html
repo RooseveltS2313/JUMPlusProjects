@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hoKEA Browse</title>
+  <link rel="stylesheet" href="styles/Browse.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+  
+  <header>
+    <div class="nav">
+
+      <div>
+        <a href="hoKEA.html">
+          <img src="images/hoKEAIogo.jpg" alt=" brand logo" class ="logo">
+      </a>
+      </div>
+      <div class="box">
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+       </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+        <br>
+        <div class="total-disprice">$0</div>
+      </div>
+
+      <button onclick="placeOrder()" class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">Click on the cart icons to interact.</h2>
+    <div class="shop-content">
+
+
+      <div class="furniture-box">
+        <div class="pic">
+          <img src="images/drawnchair.jpg" class="furniture-img">
+        </div>
+        <h2 class="furniture-title">Brown Chair</h2>
+        <span class="furniture-price">$40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="furniture-box">
+        <div class="pic"><img src="images/drawntable.jpg" class="furniture-img"></div>
+        <h2 class="furniture-title">Brown Table</h2>
+        <span class="furniture-price">$65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="furniture-box">
+        <div class="pic"><img src="images/drawnlamps.jpg" class="furniture-img"></div>
+        <h2 class="furniture-title">Brown Lamp</h2>
+        <span class="furniture-price">$35</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="furniture-box">
+        <div class="pic"><img src="images/products.jpg" class="furniture-img"></div>
+        <h2 class="furniture-title">Brown Furniture Set</h2>
+        <span class="furniture-price">$160</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="furniture-box">
+        <div class="pic"><img src="images/drawnwchair.jpg" class="furniture-img"></div>
+        <h2 class="furniture-title">White Chair</h2>
+        <span class="furniture-price">$45</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="furniture-box">
+        <div class="pic"><img src="images/drawnwtable.jpg" class="furniture-img"></div>
+        <h2 class="furniture-title">White Table</h2>
+        <span class="furniture-price">$75</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+    </div>
+  </div>
+
+  <a href="History.html" class="button">View Purchase History</a>
+
+  <script src="jscripts/Browse.js"></script>
+</body>
+</html>

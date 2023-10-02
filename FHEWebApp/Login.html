@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=-divice-width, intial-scale=1.0">
+    <link rel="stylesheet" href="styles/Login.css">
+    <title>hoKEA Login</title>
+</head>
+<body>
+    <script src ="jscripts/Login.js"></script>
+    <a href="hoKEA.html">
+        <img src="images/hoKEAIogo.jpg" alt=" brand logo" class ="logo">
+    </a>
+
+    <h1 class ="header">Login to your account!</h1>
+
+    <form onsubmit="return processForm()">  
+        <div class="container">   
+            <label for="name">Username : </label>   
+            <input type="text" id="name" placeholder="Enter Username" required>
+
+            <label for="pass">Password : </label>   
+            <input type="password" id="pass" placeholder="Enter Password" required>  
+
+            <button type="submit" class="lbutton">Login</button>      
+
+            <a href="hoKEA.html" class="button">Cancel</a>
+
+        </div>   
+    </form>
+ 
+</body>
+</html>
